@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3929867760176499816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 29824271501819499}
+  - component: {fileID: 3418517866049252777}
+  - component: {fileID: 166503683459968334}
+  - component: {fileID: 131044619505033181}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &29824271501819499
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3929867760176499816}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.46, y: 11.74, z: -3.64}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3418517866049252777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3929867760176499816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aaadd9cbdba805439e96c665f8d42dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseHealth: 10
+  countMoney: 8
+--- !u!114 &166503683459968334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3929867760176499816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 711bdeed8b6f70e4b9f9a26b4301c4f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  simpleEnemy: {fileID: 1572163856611734424, guid: cf73b789f8f7c1e4286826ec987e6efc, type: 3}
+  heavyEnemy: {fileID: 7425020749005543677, guid: 3e8fd724a182f904084f98a8c2835c81, type: 3}
+  speedEnemy: {fileID: 2759216724913811606, guid: 48eecd862d9db5149b47d4586b30ff05, type: 3}
+  bossEnemy: {fileID: 6203558694115546612, guid: 49fc63446518cc943b0c27cc94417372, type: 3}
+  spawnPoint: {fileID: 0}
+  goalPoint: {fileID: 0}
+  enemyInScene: 0
+  numberWave: 1
+--- !u!114 &131044619505033181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3929867760176499816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3146b2cea7f65ec4cad35729b54b3bb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playlistWinLost:
+  - {fileID: 8300000, guid: e91a8e7739fc26641b36f868629c7457, type: 3}
+  - {fileID: 8300000, guid: 50c1fd3bc9557b34a87772964dfc1e0d, type: 3}

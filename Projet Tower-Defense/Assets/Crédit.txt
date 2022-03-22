@@ -1,0 +1,21 @@
+CREDITS
+
+- DEVELOPERS -
+-Lapendry Florian	-Piglioni Pierre-Louis
+
+- ASSETS -
+AurynSky
+Meshtint Studio
+Unity Technoligies Inc.
+Enemies : visuel et animation - Mixamo.com
+GUI :
+
+- MUSICS -
+Sketchy Logic
+
+- SOUNDS EFFECTS -
+spookymodem
+Michael Klier
+Iwan Gabovitch
+Blender Foundation
+Still North Media

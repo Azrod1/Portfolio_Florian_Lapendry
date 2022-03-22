@@ -1,0 +1,19 @@
+developers :
+-Lapendry Floriant	-Piglioni Pierre-Louis
+
+Assets :
+-AurynSky
+-Meshtint Studio
+-Unity Technoligies Inc.
+-Mixamo ( je sais pas pour les créateurs des character et animations)
+-GUI (je ne sais pas non plus où tu l'as trouvé le GUI)
+
+Music :
+-Sketchy Logic
+
+Sound Effect :
+-spookymodem
+-Michael Klier
+-Iwan Gabovitch
+-Blender Foundation
+-Still North Media
