@@ -1,0 +1,18 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class MinusOne : MonoBehaviour
+{
+    public GameObject texte;
+
+    public void Minus() {
+        string ch = texte.GetComponent<Text>().text;
+        int i = int.Parse(ch) - 1;
+        if (i < 0) {
+            i = 9;
+        }
+        texte.GetComponent<Text>().text = i.ToString();
+    }
+}
